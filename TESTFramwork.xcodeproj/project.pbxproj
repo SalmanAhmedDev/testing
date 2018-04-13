@@ -8,12 +8,16 @@
 
 /* Begin PBXBuildFile section */
 		9A708E3120809B300045506F /* TESTFramwork.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A708E2F20809B300045506F /* TESTFramwork.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9A708E3920809B780045506F /* testingfile.h in Headers */ = {isa = PBXBuildFile; fileRef = 9A708E3720809B780045506F /* testingfile.h */; };
+		9A708E3A20809B780045506F /* testingfile.m in Sources */ = {isa = PBXBuildFile; fileRef = 9A708E3820809B780045506F /* testingfile.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
 		9A708E2C20809B300045506F /* TESTFramwork.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = TESTFramwork.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9A708E2F20809B300045506F /* TESTFramwork.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = TESTFramwork.h; sourceTree = "<group>"; };
 		9A708E3020809B300045506F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9A708E3720809B780045506F /* testingfile.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = testingfile.h; sourceTree = "<group>"; };
+		9A708E3820809B780045506F /* testingfile.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = testingfile.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -47,6 +51,8 @@
 			isa = PBXGroup;
 			children = (
 				9A708E2F20809B300045506F /* TESTFramwork.h */,
+				9A708E3720809B780045506F /* testingfile.h */,
+				9A708E3820809B780045506F /* testingfile.m */,
 				9A708E3020809B300045506F /* Info.plist */,
 			);
 			path = TESTFramwork;
@@ -60,6 +66,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				9A708E3120809B300045506F /* TESTFramwork.h in Headers */,
+				9A708E3920809B780045506F /* testingfile.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -132,6 +139,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9A708E3A20809B780045506F /* testingfile.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -247,6 +255,7 @@
 				INFOPLIST_FILE = TESTFramwork/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.atom.sample.ios.TESTFramwork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
@@ -267,6 +276,7 @@
 				INFOPLIST_FILE = TESTFramwork/Info.plist;
 				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/../Frameworks @loader_path/Frameworks";
+				MACOSX_DEPLOYMENT_TARGET = 10.11;
 				PRODUCT_BUNDLE_IDENTIFIER = com.atom.sample.ios.TESTFramwork;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SKIP_INSTALL = YES;
